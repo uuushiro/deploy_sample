@@ -20,3 +20,7 @@ doc/
 .DS_Store
 .idea
 .secret
+lib/capistrano/
+vendor/bundle/ruby/2.3.0/build_info/
+vendor/bundle/ruby/2.3.0/doc/
+vendor/bundle/ruby/2.3.0/gems/nokogiri-1.8.0/ext/nokogiri/tmp/

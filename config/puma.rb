@@ -54,7 +54,7 @@ rails_env = ENV['RAILS_ENV'] || "staging"
 environment rails_env
 
 # socketでbindする。nginxからsocket経由で接続するため
-bind "unix://#{tmp_dir}/sockets/sample_deploy-puma.sock"
+bind "unix://#{tmp_dir}/sockets//tmp/sockets/puma.sock"
 
 # ログ出力ファイルの指定
 stdout_redirect "#{tmp_dir}/logs/puma.stdout.log", "#{tmp_dir}/logs/puma.stderr.log", true
